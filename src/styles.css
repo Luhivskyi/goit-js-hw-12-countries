@@ -16,7 +16,7 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+  background-image: url('./images/worldMap.png');
 }
 .search-form {
   margin-left: 40px;
@@ -25,7 +25,12 @@ body {
 input {
   width: 300px;
   height: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
 .articles {
   width: 680px;
   list-style: none;
